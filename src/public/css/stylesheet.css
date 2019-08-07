@@ -1,0 +1,113 @@
+body{
+    height: 100vh;
+    width: 100vw;
+}
+
+.form{
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.text-box {
+    text-align: center;
+    padding: 2rem 3rem;
+}
+
+#selectableContent{
+    display: flex;
+    flex-direction: column;
+}
+
+#selectableContentPan{
+    display: flex;
+    flex-direction: column;
+}
+
+#submit-button-container{
+    width: 100%;
+}
+
+#toggle-content{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.font-dark{
+    color: rgba(0,0,0,0.87);
+}
+
+.btn{
+    margin: 1rem; 
+}
+.btn-wide{
+    width:100%;
+}
+
+nav{
+    height: 100% !important;
+    z-index: 2;
+    grid-column-start: 1;
+    grid-column-end: 12;
+    grid-row-start: 1;
+    grid-row-end: 1;
+}
+
+.map{
+    grid-column-start: 3;
+    grid-column-end: 12;
+    grid-row-start: 2;
+    grid-row-end: 12;
+    z-index: 1;
+}
+
+.ui{
+    display: flex;
+    flex-direction: column;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 12;
+    overflow: scroll;
+    background-color: rgba(230,230,230,0.87);
+}
+
+.main-grid{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(11, 1fr);
+    grid-template-rows: repeat(11, 1fr);
+}
+
+.accordion-container{
+    display: flex;
+    flex-direction: column;
+    max-height: 0;
+    overflow: hidden;
+}
+
+
+.level-one{
+    width:100%;
+}
+
+.level-two{
+    width: 90%;
+    align-self: flex-end;
+}
+
+.level-three{
+    width: 90%;
+    align-self: flex-end;
+
+}
+
+.level-four{
+    width: 90%;
+    align-self: flex-end;
+}
